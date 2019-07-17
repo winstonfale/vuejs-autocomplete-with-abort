@@ -6,8 +6,9 @@
 [![Downloads](https://img.shields.io/npm/dm/vuejs-auto-complete.svg)](https://www.npmjs.com/package/vuejs-auto-complete)
 
 > A Vue autocomplete component
+forked from https://github.com/charliekassel/vuejs-autocomplete
 
-`npm install vuejs-auto-complete --save`
+`npm install vuejs-auto-complete-with-abort --save`
 
 ## Usage
 
@@ -15,7 +16,7 @@ Installation, add autocomplete component into your app
 
 ```javascript
 import Vue from 'vue'
-import Autocomplete from 'vuejs-auto-complete'
+import Autocomplete from 'vuejs-auto-complete-with-abort'
 
 new Vue({
   //...
