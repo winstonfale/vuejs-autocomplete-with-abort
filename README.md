@@ -6,8 +6,10 @@
 [![Downloads](https://img.shields.io/npm/dm/vuejs-auto-complete.svg)](https://www.npmjs.com/package/vuejs-auto-complete)
 
 > A Vue autocomplete component
+> Forked from https://github.com/charliekassel/vuejs-autocomplete
+> Added fetch abort when theres another request, remove click searching, disabled focus clearing
 
-`npm install vuejs-auto-complete --save`
+`npm install vuejs-auto-complete-with-abort --save`
 
 ## Usage
 
@@ -15,7 +17,7 @@ Installation, add autocomplete component into your app
 
 ```javascript
 import Vue from 'vue'
-import Autocomplete from 'vuejs-auto-complete'
+import Autocomplete from 'vuejs-auto-complete-with-abort'
 
 new Vue({
   //...

@@ -1,5 +1,5 @@
 {
-  "name": "vuejs-auto-complete",
+  "name": "vuejs-auto-complete-with-abort",
   "version": "0.9.0",
   "description": "A Vue autocomplete component",
   "keywords": [
@@ -7,7 +7,7 @@
     "autocomplete",
     "typeahead"
   ],
-  "author": "Charlie Kassel <ck@charliekassel.com>",
+  "author": "Winston Fale <winstonfale@gmail.com>",
   "private": false,
   "license": "MIT",
   "main": "dist/build.js",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/charliekassel/vuejs-autocomplete"
+    "url": "https://github.com/tonz341/vuejs-autocomplete-with-abort"
   },
   "bugs": {
-    "url": "https://github.com/charliekassel/vuejs-autocomplete/issues"
+    "url": "https://github.com/tonz341/vuejs-autocomplete-with-abort/issues"
   },
   "dependencies": {
     "abort-controller": "^3.0.0"
